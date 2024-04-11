@@ -46,7 +46,7 @@ public class senacDetetive {
             }
         }
 
-        if (totalSim == 1) {
+        if (totalSim <=1) {
             return "Inocente";
         }else if(totalSim == 2) {
             return "Suspeito";
